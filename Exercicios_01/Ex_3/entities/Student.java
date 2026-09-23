@@ -1,0 +1,21 @@
+package entities;
+
+public class Student {
+	
+	public String name;
+	public double grade_1, grade_2, grade_3;
+	
+	public double finalGrade() {
+		return grade_1 + grade_2 + grade_3;
+		}
+	
+	/*public double missingPoints() {
+		if (finalGrade() < 60) {
+			return 60.0 - finalGrade();			
+		} else {
+			return 0.0;
+		} */
+		public double missingPoints() {								
+		    return (finalGrade() < 60) ? 60.0 - finalGrade() : 0.0;
+		}
+	}	
