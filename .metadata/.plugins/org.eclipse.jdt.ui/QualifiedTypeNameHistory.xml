@@ -6,4 +6,6 @@
     <fullyQualifiedTypeName name="entities.Rectangle"/>
     <fullyQualifiedTypeName name="entities.Employee"/>
     <fullyQualifiedTypeName name="entities.Student"/>
+    <fullyQualifiedTypeName name="util.CurrencyConverter"/>
+    <fullyQualifiedTypeName name="jdk.internal.misc.FileSystemOption"/>
 </qualifiedTypeNameHistroy>
